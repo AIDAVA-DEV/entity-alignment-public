@@ -1,0 +1,23 @@
+[project]
+name = "entity-alignment"
+version = "0.1.0"
+description = "A package for entity alignment tasks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pykeen==1.11.1",
+    "rdflib>=7.1.4",
+    "scikit-learn==1.7.0",
+    "torch==2.3.0",
+    "tqdm>=4.67.1",
+    "oxrdflib>=0.4.0",
+    "numpy>=2.2.6",
+    "pydantic==2.11.3",
+    "fastapi[standard]>=0.116.0",
+    "python-dotenv>=1.1.1",
+    "sparqlwrapper>=2.0.0",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.28.0",
+    "kink>=0.8.1",
+]
